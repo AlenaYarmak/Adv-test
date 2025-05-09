@@ -1,0 +1,49 @@
+.card__item {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5fb;
+    border-radius: 3px;
+    flex-direction: column;
+    padding: 16px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.card__user-image {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.card__user-name {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card__adress {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card__company-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.divider {
+    margin: 16px 0px;
+    height: 2px;
+    width: 100%;
+    background-color: #bde5d2;
+}
+
+.card__text {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 16px 0px;
+}
+
+.card__contacts {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}

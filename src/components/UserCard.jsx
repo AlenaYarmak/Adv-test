@@ -3,7 +3,15 @@ import mail from '../assets/images/mail.png';
 import call from '../assets/images/call.png';
 import web from '../assets/images/web.png';
 
-const UserCard = () => {
+const UserCard = (
+    { 
+        name,
+        company,
+        phone,
+        email,
+        website 
+    }
+    ) => {
 
     return (
         <div className='card__item'>
@@ -12,34 +20,34 @@ const UserCard = () => {
                 src='https://robohash.org/mail@ashallendesign.co.uk'>            
             </img>
             <p className='card__user-name'>
-                Ervin Howell
+                {name}
             </p>
             <p className='card__adress'>
                 Wisokyburgh, Victor Plains, 90566-7771
             </p>
             <div className='divider'></div>
             <p className='card__company-name'>
-                Deckow-Crist
+                {company}
             </p>
             <p className='card__text'>Get Connected</p>
             <div className='card__contacts'>
                 <a
                     className='card__phone'
-                    href='tel:010-692-6593'>
+                    href={phone}>
                     <img 
                         className='card__icon' 
                         src={call} alt='' />
                 </a>
                 <a
                     className='card__email'
-                    href='mailto:Shanna@melissa.tv'>
+                    href={`mailto:${email}`}>
                     <img 
                         className='card__icon' 
                         src={mail} alt='icon mail' />
                 </a>
                 <a
                     className='card__website'
-                    href='https://anastasia.net'
+                    href={website}
                     target='_blanket'>
                     <img 
                         className='card__icon' 

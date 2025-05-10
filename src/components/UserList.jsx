@@ -24,7 +24,10 @@ const UserList = () => {
                     company={user.company.name}
                     phone={user.phone}
                     email={user.email}
-                    website={user.website}/>
+                    website={user.website}
+                    city={user.address.city}
+                    street={user.address.street}
+                    suite={user.address.suite}/>
             ))}
         </>
     )

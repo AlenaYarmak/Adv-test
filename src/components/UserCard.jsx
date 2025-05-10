@@ -9,7 +9,10 @@ const UserCard = (
         company,
         phone,
         email,
-        website 
+        website,
+        city, 
+        street,
+        suite
     }
     ) => {
 
@@ -23,7 +26,7 @@ const UserCard = (
                 {name}
             </p>
             <p className='card__adress'>
-                Wisokyburgh, Victor Plains, 90566-7771
+                {city}, {street}, {suite}
             </p>
             <div className='divider'></div>
             <p className='card__company-name'>

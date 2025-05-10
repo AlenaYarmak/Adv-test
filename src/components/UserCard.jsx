@@ -4,6 +4,7 @@ import call from '../assets/images/call.png';
 import web from '../assets/images/web.png';
 
 const UserCard = () => {
+
     return (
         <div className='card__item'>
             <img

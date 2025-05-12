@@ -1,0 +1,19 @@
+.filters__container {
+    flex: 1;
+    background-color: #f5f5fb;
+    padding: 16px;
+}
+
+.filter-section {
+    margin-bottom: 16px;
+}
+
+.checkbox__container {
+    margin-top: 4px;
+}
+
+.checkbox__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,12 +1,11 @@
 .card__item {
     display: flex;
     align-items: center;
+    justify-content: space-between ;
     background-color: #f5f5fb;
     border-radius: 3px;
     flex-direction: column;
     padding: 16px;
-    max-width: 300px;
-    width: 100%;
 }
 
 .card__user-image {
@@ -30,7 +29,7 @@
 }
 
 .divider {
-    margin: 16px 0px;
+    /* margin: 16px 0px; */
     height: 2px;
     width: 100%;
     background-color: #bde5d2;
@@ -39,11 +38,15 @@
 .card__text {
     font-size: 20px;
     font-weight: 300;
-    margin: 16px 0px;
+    /* margin: 16px 0px; */
 }
 
 .card__contacts {
     display: flex;
     gap: 16px;
     justify-content: space-between;
+}
+
+.card__icon {
+    width: 16px;
 }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import { userService } from '../services/userService';
-import UserCard from './UserCard';
+import { userService } from '../../services/userService';
+import UserCard from '../UserCard/UserCard';
+import './UserList.css';
 
 const UserList = () => {
     const [users, setUsers] = useState([]);
@@ -16,7 +17,7 @@ const UserList = () => {
     console.log(users);
 
     return (
-        <>
+        <div className='card__container'>
             {users.map((user) => (
                 <UserCard 
                     key={user.id}
@@ -29,7 +30,7 @@ const UserList = () => {
                     street={user.address.street}
                     suite={user.address.suite}/>
             ))}
-        </>
+        </div>
     )
 }
 

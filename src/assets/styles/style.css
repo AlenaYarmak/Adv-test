@@ -72,4 +72,10 @@
       background-color: #f9f9f9;
     }
   }
+
+.content__container {
+  display: flex;
+  margin: 32px;
+  gap: 16px;
+}
   

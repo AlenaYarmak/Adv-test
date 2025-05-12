@@ -1,11 +1,14 @@
-import UserCard from '../components/UserCard';
-import UserList from '../components/UserList';
+import UserList from '../components/UserList/UserList';
+import FilterPanel from '../components/FilterPanel/FilterPanel';
 
 const Main = () => {
     return (
         <>
             <h1>ADV test title</h1>
-            <UserList />
+            <div className='content__container'>
+                <FilterPanel />
+                <UserList />
+            </div>
         </>
     )
 }

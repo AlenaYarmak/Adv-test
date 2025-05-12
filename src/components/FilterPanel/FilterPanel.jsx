@@ -25,6 +25,7 @@ const FilterPanel = ({
                                 checked={activeFilters.website.includes(website)}
                                 onChange={() => onFilterChange('website', website)}
                             />
+                            <span className='custom__checkbox'></span>
                         </label>
                     ))}
                 </div>
@@ -44,6 +45,7 @@ const FilterPanel = ({
                                 checked={activeFilters.website.includes(city)}
                                 onChange={() => onFilterChange('city', city)}
                             />
+                            <span className='custom__checkbox'></span>
                         </label>
                     ))}
                 </div>
@@ -63,6 +65,7 @@ const FilterPanel = ({
                                 checked={activeFilters.company.includes(company)}
                                 onChange={() => onFilterChange('company', company)}
                             />
+                            <span className='custom__checkbox'></span>
                         </label>
                     ))}
                 </div>

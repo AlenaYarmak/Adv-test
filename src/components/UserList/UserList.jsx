@@ -3,19 +3,7 @@ import { userService } from '../../services/userService';
 import UserCard from '../UserCard/UserCard';
 import './UserList.css';
 
-const UserList = () => {
-    const [users, setUsers] = useState([]);
-
-    useEffect(() => {
-        const loadUsers = async () => {
-            const data = await userService.fetchUsers();
-            setUsers(data);
-        };
-        loadUsers();
-    }, []);
-
-    console.log(users);
-
+const UserList = ({ users }) => {
     return (
         <div className='card__container'>
             {users.map((user) => (

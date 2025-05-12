@@ -12,7 +12,7 @@ const FilterPanel = ({
             </div>
             
             <div className='filter__group'>
-                <h4>Website</h4>
+                <h4 className='filter__title'>Website</h4>
                 <div className='checkbox__container'>
                     {filterOptions.websites.map(website => (
                         <label 
@@ -32,7 +32,7 @@ const FilterPanel = ({
             </div>
 
             <div className='filter__group'>
-                <h4>City</h4>
+                <h4 className='filter__title'>City</h4>
                 <div className='checkbox__container'>
                     {filterOptions.cities.map(city => (
                         <label 
@@ -52,7 +52,7 @@ const FilterPanel = ({
             </div>
 
             <div className='filter__group'>
-                <h4>Company</h4>
+                <h4 className='filter__title'>Company</h4>
                 <div className='checkbox__container'>
                     {filterOptions.companies.map(company => (
                         <label 

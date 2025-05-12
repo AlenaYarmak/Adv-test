@@ -6,10 +6,18 @@
 
 .filter-section {
     margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .checkbox__container {
     margin-top: 4px;
+}
+
+.filter__title {
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .checkbox__item {
@@ -55,4 +63,10 @@
 
 .checkbox__item input:checked ~ .custom__checkbox:after {
   display: block;
+}
+
+@media (max-width: 768px) {
+    .filters__container {
+        flex: 2;
+    }
 }

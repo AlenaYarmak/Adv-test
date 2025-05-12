@@ -74,7 +74,7 @@ const Main = () => {
 
     return (
         <>
-            <h1>ADV test title</h1>
+            <h1 className='main__title'>AdversterX test task</h1>
             <div className='content__container'>
                 <FilterPanel 
                     filterOptions={filterOptions}

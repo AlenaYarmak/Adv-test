@@ -42,7 +42,7 @@ const FilterPanel = ({
                             <input
                                 className='filter__checkbox'
                                 type='checkbox'
-                                checked={activeFilters.website.includes(city)}
+                                checked={activeFilters.city.includes(city)}
                                 onChange={() => onFilterChange('city', city)}
                             />
                             <span className='custom__checkbox'></span>

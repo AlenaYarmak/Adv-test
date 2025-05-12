@@ -3,8 +3,7 @@ import mail from '../../assets/images/mail.png';
 import call from '../../assets/images/call.png';
 import web from '../../assets/images/web.png';
 
-const UserCard = (
-    { 
+const UserCard = ({ 
         name,
         company,
         phone,
@@ -13,8 +12,7 @@ const UserCard = (
         city, 
         street,
         suite
-    }
-    ) => {
+}) => {
 
     return (
         <div className='card__item'>

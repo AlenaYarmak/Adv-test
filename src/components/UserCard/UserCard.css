@@ -10,10 +10,11 @@
 
 .card__user-image {
     border-radius: 50%;
-    max-width: 100px;
+    max-width: 50px;
 }
 
 .card__user-name {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
 }
@@ -29,7 +30,6 @@
 }
 
 .divider {
-    /* margin: 16px 0px; */
     height: 2px;
     width: 100%;
     background-color: #bde5d2;
@@ -38,7 +38,6 @@
 .card__text {
     font-size: 20px;
     font-weight: 300;
-    /* margin: 16px 0px; */
 }
 
 .card__contacts {
